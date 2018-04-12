@@ -1,3 +1,16 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+theme = "sam-theme"
+
+[[params.mainMenu]]
+    link = "/posts"
+    text = "writing"
+
+[[params.mainMenu]]
+    link = "/gallery"
+    text = "gallery"
+
+[[params.mainMenu]]
+    link = "/about"
+    text = "who is sam?"
